@@ -1,0 +1,166 @@
+﻿body 
+{
+    font-family: monaco, monospace;
+    background-color: #fff;
+    margin: 0; 
+	font-family: 'Prompt', sans-serif;
+}
+header
+{
+	height: 730px;
+}
+.logo 
+{
+    background-color: black;
+    height: 240px;
+    width: 50%;
+    float: left;
+    z-index: 100;
+    position: absolute;
+    position: fixed;
+	-webkit-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+    box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6); 
+} 
+#pic
+{
+	width: 680px;
+	height: 106px;	
+	display: block;
+	margin-top: 134px;
+	float: right
+}
+h1
+{
+	color: black;
+	font-size: 50px;
+	float:right;
+	line-height: 40px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+#contact
+{
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url(img/tiny.png);
+    height: 580px;
+    color: black;
+    float: right;
+    width: 80%;
+	-webkit-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+    box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+	font-size: 30px;
+	position: relative;
+}
+#contup
+{
+    position: absolute;
+	margin-top: 38px;
+	margin-left: 59%;
+}
+#contdown
+{
+    margin-top: 308px;
+	margin-left: 59%;
+    position: absolute;
+}
+.add
+{   
+    margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 37px;
+	font-weight: normal;
+}
+#details
+{
+    text-align: right;
+	border: 5px solid black;
+	height: 500px;
+	margin-top: -20px;
+	width: 55%;
+	color: #fff;
+	z-index: 8;
+	position: absolute;
+	margin-left: 10%;
+	color: black;
+}
+#dettup
+{
+	margin-top: 38px;
+	margin-right: 2%;
+}
+#detdown
+{
+    margin-top: 108px;
+	margin-right: 2%;
+}
+.name
+{
+	font-size: 50px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+.down
+{
+    margin-top: 55px;
+    margin-bottom: 10px;
+	height: 100px;
+}
+.arrow
+{
+    margin-top: 0px;
+    float: right;
+	margin-right: 50%;
+    height: 100px;
+	width: 100px;
+}
+.arrow:hover
+{
+    height: 105px;
+	width: 105px;
+}
+#services
+{
+	/* Background pattern from Toptal Subtle Patterns */
+    background-image: url(img/tiny.png);
+	background-position: right;
+	-webkit-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+    box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
+	height: 600px;
+	margin-top: 150px;
+	margin-bottom: 300px;
+	width: 84%;
+	position: absolute;
+}
+#hed
+{
+    font-size: 50px;
+	font-weight: bold;
+	margin-left: 18%;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	line-height: 100px;
+}
+#details2
+{
+    position: relative;
+	height: 600px;
+	border: 5px solid black;
+	//z-index: 10;
+	margin-top: 260px;
+	width: 80%;
+	float: right;
+	margin-right: -3%;
+	display: flex;
+}
+.servdeta:last-child
+{
+    margin-right: 15%;
+}
+ul
+{
+    margin-left: 40px;
+	font-size: 20px;
+}

@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="description" content="Firma Elektryczna Projektowo Wykonawcza. Świadczymy usługi w zakresie projektowania, pomiarów, nadzorów oraz kosztorysowania w branży elektrycznej." />
+    <meta name="keywords" content="mikel, pomiary, elektryk, prąd, energia, piotr, mikołajek, sucha, beskidzka, projekt, nadzór, architektura, kosztorys, porada, energetyka"/>
+    <title>MIKEL - projekty i pomiary elektryczne</title>
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Prompt:400,700" rel="stylesheet">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.scrollTo.min.js"></script>
+	<script>
+		$(window).scroll(function() 
+		{
+		    if ($(this).scrollTop()>200) 
+			{ 
+			   
+		       $('.logo').stop().animate({'width' : '30%', 'height' : '63px'}, 200);
+			   $('#pic').stop().animate({'width' : '340px', 'height' : '53px', 'margin-top' : '10px' }, 200);
+			}
+			else
+			{
+			   $('.logo').stop().animate({'width' : '50%', 'height' : '240px'}, 200);
+			   $('#pic').stop().animate({'width' : '680px', 'height' : '106px', 'margin-top' : '134px'}, 200);
+			}
+		});
+    </script>
+	<script>
+		$(function($) 
+		{
+		    $.scrollTo(0);
+            $('.arrow').click(function() { $.scrollTo($('#oferta'), 700); });
+
+			$(window).scroll(function()
+            {
+               if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+               else $('.scrollup').fadeOut();      
+            });
+        });
+		$(document).ready(function() 
+		{
+		var reg=1;
+		var lastScrollTop = 0;
+        $(window).scroll(function(event)
+		{
+            var st = $(this).scrollTop();
+            if (st > lastScrollTop)
+			{ 
+                switch(reg)
+				{
+					case 1:
+					   $.scrollTo($('#oferta'), 700);
+					   reg=2;
+					break;
+				}
+            } 
+			else
+			{   
+                switch(reg)
+			    {
+					case 2:
+					   $("html, body").animate({ scrollTop: 0 }, 700);
+					   reg=1;
+					break;
+			    }
+            }
+            lastScrollTop = st;
+        });
+        });
+    </script>
+</head>
+<body>
+  <header>
+      <div class="logo"><img src="img/logo.png" id="pic"></div>
+	  <div style="clear: both;"></div>
+	  <h1 id="kontakt">KONTAKT</h1>
+	  <div style="clear: both;"></div>
+	  <article id="contact">
+	     <section id="contup">
+	        <h3 class="add">FIRMA ELEKTRYCZNA</h3>
+	        <h3 class="add">PROJEKTOWO WYKONAWCZA</h3>
+		 </section>
+		 <section id="contdown">
+		    <h3 class="add">UL. MICKIEWICZA 175</h3>
+	        <h3 class="add">34-200 SUCHA BESKIDZKA</h3>
+         </section>
+	  </article> 
+	  <article id="details">
+	      <section id="dettup">
+	         <h2 class="name">PIOTR</h2>
+	         <h2 class="name">MIKOŁAJEK</h2>
+		  </section>
+		  <section id="detdown">
+	         <h2 class="name">501 744 801</h2>
+	         <h2 class="name">biuro@piotrmikolajek.pl</h2>
+		  </section>
+	  </article>
+  </header>
+  <main>
+      <div class="down">
+          <a href="#"><img class="arrow" src="img/arrow.png"/></a>
+      </div>
+      <h1 id="oferta">OFERTA</h1>
+      <div id="services">
+	  <p id="hed">ŚWIADCZYMY USŁUGI W ZAKRESIE:</p>
+      </div>
+      <article id="details2">
+	     <section class="servdeta"></section>
+	        <ul>
+		       <li>Projektowania instalacji elektrycznych wszystkich rodzaju obiektów</li>
+		       <li>Projektowania instalacji słaboprądowych</li>
+		       <li>Projektowania przyłączy elektroenergetycznych</li>
+		       <li>Projektowania sieci elektroenergetycznych nn i śn</li>
+		       <li>Projektowania elektroenergetycznych stacji transformatorowych śn/nn</li>
+		    </ul>
+	     <section class="servdeta">
+	        <ul>
+		       <li>Projektowania przebudowy sieci elektroenergetycznych nn i śn</li>
+		       <li>Projektowania oświetlenia ulicznego i terenu</li>
+		       <li>Kosztorysowania branży elektrycznej</li>
+		       <li>Pomiarów instalacji elektrycznych</li>
+		       <li>Nadzorów inwestorskich robót elektrycznych</li>
+		    </ul>
+	     </section>
+      </article>
+      <div style="clear: both;"></div>
+  </main>
+</body>
+</html>
+
+
