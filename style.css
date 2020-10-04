@@ -2,11 +2,20 @@
 {
     background-color: #fff;
     margin: 0; 
-	font-family: 'Prompt', sans-serif;
 }
 header
 {
-	height: 100vh;
+	height: 10vh;
+	background-color: black;
+	position:relative;
+}
+.logo
+{
+	width: 300px;
+    height: auto;
+	margin-top: 3vh;
+	margin-left: 15vh;
+	cursor: pointer;
 }
 main
 {
@@ -14,68 +23,31 @@ main
 	position: relative;
 	overflow: hidden;
 }
-#arrowup
-{ 
-    bottom: 20px;
-    right: 20px;
-    position: fixed;
-    float: right;
-    height: 110px;
-	width: 110px;
-	z-index: 100;
-	display: none;
-	border-radius: 50%;
-	-webkit-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
-    -moz-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
-    box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6); 
-}
-#arrowup:hover
-{
-    height: 120px;
-	width: 120px;
-}
-.logo 
-{
-    background-color: black;
-    height: 240px;
-    width: 50%;
-    float: left;
-    z-index: 100;
-    position: fixed;
-	-webkit-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
-    -moz-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
-    box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6); 
-} 
-#pic
-{
-	width: 680px;
-	height: 106px;	
-	display: block;
-	margin-top: 134px;
-	float: right
-}
 h1
 {
-	color: black;
-	font-size: 50px;
+	cursor: pointer;
+	color: white;
+	font-size: 30px;
 	float: right;
-	line-height: 40px;
-	margin-top: 100px;
+	font-family: 'Merriweather', serif;
+	margin-top: 3vh;
 	margin-bottom: 0px;
+	margin-right: 5vh;
 	letter-spacing: 3px;
+	transition: transform .1s;
+}
+h1:hover
+{
+	transform: scale(1.08);
 }
 #contact
 {
-    /* Background pattern from Toptal Subtle Patterns */
-    background-image: url(img/tiny.png);
-    height: 580px;
-    color: black;
-    float: right;
-    width: 80%;
-	-webkit-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
-    -moz-box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
-    box-shadow: -7px 25px 75px 1px rgba(0,0,0,0.6);
-	position: relative;
+    margin-right: 15vh;
+}
+#background
+{
+	height: 90vh;
+	width: 100%;
 }
 #contup
 {
@@ -228,13 +200,13 @@ ul
 	z-index: 8;
 	position: absolute;
 	margin-top: 200px;
-	margin-left: 10%;
+	margin-left: 12%;
 	color: black;
 	margin-bottom: 500px;
 }
 .addabout
 {
-	margin-left: 70%;
+	margin-left: 73%;
 	margin-top: 110px;
 }
 .addaboutdet
