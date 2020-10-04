@@ -46,8 +46,9 @@ h1:hover
 }
 #background
 {
+	align: center;
 	height: 90vh;
-	width: 100%;
+	width: auto;
 }
 #contup
 {
