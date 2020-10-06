@@ -6,44 +6,52 @@
 }
 header
 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	position: relative;
-	height: 100px;
+	height: 65px;
 	background-color: black;
 }
+
+nav{
+	display: none;
+	flex-direction: row;
+}
+
+.nav-item{
+	margin-left:80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+.nav-item a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 42px;
+	height: 42px;
+	background: #000;
+	border: 0;
+}
+
+.nav-btn img{
+	width: 42px;
+	height: 42px;
+} 
+
 .logo
 {
-	width: 300px;
-    height: auto;
-	margin-top: 30px;
-	margin-left: 50px;
-	margin-bottom: 17px;
+	max-height: 30px;
+	width: auto;
 	cursor: pointer;
 }
-@media (max-width: 900px) {
-	.logo {
-		width: 250px;
-		height: auto;
-		margin-top: 37px;
-		margin-left: 30px;
-		cursor: pointer;
-	}
-	h1 {
-		position:absolute;
-		visibility: hidden;
-	}
-	#button{
-		visibility: visible;
-		position: relative;
-		width: 50px;
-		height: auto;
-		float: right;
-		margin-right: 30px;
-		margin-top: 30px;
-	}
-	#button:hover{
-		cursor: pointer;
-	}
-}
+
 main
 {
 	height: 200vh;
@@ -67,15 +75,7 @@ h1:hover
 {
 	transform: scale(1.08);
 }
-@media (min-width: 900px) {
-	#button{
-		visibility: hidden;
-	}
-}
-#contact
-{
-    margin-right: 50px;
-}
+
 #background {
 	height: 90vh;
 	background-image: url("img/background.jpg");
@@ -91,4 +91,37 @@ footer
 	font-size: 28px;
 	width: 100%;
 	text-align: center;
+}
+
+@media (max-width: 900px) {
+	h1 {
+		position:absolute;
+		visibility: hidden;
+	}
+	#button{
+		display: block;
+		position: relative;
+		width: 50px;
+		height: auto;
+	}
+	#button:hover{
+		cursor: pointer;
+	}
+}
+
+@media (min-width: 900px) {
+	#button{
+		display: none;
+	}
+
+	.logo {
+		max-height: 36px;
+		width: auto;
+		width: auto;
+		cursor: pointer;
+	}
+
+	nav{
+		display: flex;
+	}
 }
