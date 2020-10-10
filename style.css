@@ -8,10 +8,12 @@ body {
 
 header {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+	padding-left: 60px;
+	padding-right: 60px;
 	align-items: center;
 	position: relative;
-	height: 65px;
+	height: 10vh;
 	background-color: black;
 }
 
@@ -53,8 +55,12 @@ nav{
 	cursor: pointer;
 }
 
+main{
+	padding-left: 60px;
+}
+
 .section-main{
-	height: 100vh;
+	height: 90vh;
 	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), 
 	url("img/background.jpg");
 	background-size: cover;
@@ -64,31 +70,28 @@ nav{
 	color: white;
 }
 
-h1{
+.section-main h1{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 55px;
-	margin-top: 120px;
-	margin-left: 10vh;
-	margin-right: 10vh;
+	font-size: 32px;
+	margin-top: 40px;
+	margin-right: 40px;
 	margin-bottom: 10px;
 }
-h2{
+.section-main h2{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
-	margin-left: 10vh;
-	margin-right: 10vh;
+	font-size: 20px;
+	margin-right: 40px;
 }
 #buttonMain{
-	height: 125px;
-	width: 458px;
+	height: 60px;
+	width: 200px;
 	border: none;
 	border-radius: 80px;
 	background-color: #B11919;
 	font-family: 'Secular One', sans-serif;
-	font-size: 40px;
+	font-size: 18px;
 	color: white;
-	margin-left: 10vh;
-	margin-top: 120px;
+	margin-top: 40px;
 }
 .section{
 	height: 100vh;
@@ -116,29 +119,27 @@ footer
 	#button:hover{
 		cursor: pointer;
 	}
-	h1{
-		font-size: 40px;
-		margin-top: 120px;
-		margin-left: 5vh;
-		margin-right: 5vh;
-	}
-	h2{
-		font-family: 'Montserrat', sans-serif;
-		font-size: 25px;
-		margin-left: 5vh;
-		margin-right: 5vh;
-	}
-	#buttonMain{
-		height: 101px;
-		width: 374px;
-		border-radius: 80px;
-		font-size: 35px;
-		margin-left: 5vh;
-		margin-top: 80px;
-	}
 }
 
 @media (min-width: 900px) {
+	header{
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+
+	main{
+		padding-left: 120px;
+	}
+
+	.section-main h1{
+		font-size: 41px;
+		margin-top: 80px;
+	}
+	.section-main h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+	}
+
 	#button{
 		display: none;
 	}
@@ -150,5 +151,12 @@ footer
 
 	nav{
 		display: flex;
+	}
+
+	#buttonMain{
+		height: 80px;
+		width: 260px;
+		font-size: 24px;
+		margin-top: 80px;
 	}
 }
