@@ -96,9 +96,34 @@ nav{
   margin-left: 50px;
 }
 
-main{
-	padding-left: 60px;
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+	.section-main h1{
+		font-size: 21px;
+		margin-top: 25px;
+		margin-bottom: 5px;
+	}
+	.section-main h2{
+		font-size: 14px;
+	}
+	.logo {
+		max-height: 25px;
+		width: auto;
+	}
+	#buttonMain{
+		height: 50px;
+		width: 166px;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	footer
+	{
+		height: 55px;
+	}
 }
+
+
 
 .section-main{
 	height: 90vh;
