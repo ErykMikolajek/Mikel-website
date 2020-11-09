@@ -99,7 +99,7 @@ nav{
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-	.section-main h1{
+	/*.section-main h1{
 		font-size: 21px;
 		margin-top: 25px;
 		margin-bottom: 5px;
@@ -127,7 +127,7 @@ nav{
 	footer
 	{
 		height: 55px;
-	}
+	}*/
 }
 
 main{
