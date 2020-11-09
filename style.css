@@ -270,3 +270,56 @@ footer
 		font-size: 14px;
 	}
 }
+@media (max-width: 450px) {
+	header{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	main{
+		padding-left: 30px;
+	}
+	.section{
+		padding-left: 30px;
+		padding-rigth: 30px;
+	}
+	.section-main h1{
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 2px;
+		font-size: 21px;
+		margin-top: 55px;
+		margin-bottom: 10px;
+		margin-right: 20px;
+	}
+	.section-main h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+		margin-right: 20px;
+	}
+	.logo {
+		max-height: 20px;
+		width: auto;
+	}
+
+	#buttonMain{
+		height: 50px;
+		width: 166px;
+		font-size: 20px;
+		margin-top: 60px;
+	}
+	footer
+	{
+		height: 75px;
+		background-color: black;
+		color: white;
+		bottom: 0;
+		font-size: 12px;
+		width: 100%;
+		text-align: center;
+	}
+	#made-by{
+		margin: 0;
+		color: white;
+		font-size: 8px;
+	}
+}
