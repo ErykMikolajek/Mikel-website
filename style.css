@@ -1,0 +1,355 @@
+﻿html{
+	scroll-behavior: smooth;
+}
+body {
+    background-color: #fff;
+    margin: 0;	
+}
+::selection {
+  color: white;
+  background: #B11919;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 60px;
+	padding-right: 60px;
+	align-items: center;
+	position: relative;
+	height: 10vh;
+	background-color: black;
+	white-space: nowrap;
+}
+
+nav{
+	display: none;
+	flex-direction: row;
+}
+
+.nav-item{
+	margin-left:80px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+.nav-item a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 42px;
+	height: 42px;
+	background: #000;
+	border: 0;
+}
+
+.nav-btn img{
+	width: 42px;
+	height: 42px;
+} 
+
+.logo
+{
+	max-height: 30px;
+	width: auto;
+	cursor: pointer;
+}
+
+.sidenav {
+  height: 100vh;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  overflow-x: hidden;
+  padding-top: 90px;
+  transition: 0.5s;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sidenav a {
+  padding: 8px 8px 15px 32px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+main{
+	padding-left: 60px;
+}
+
+.section-main{
+	height: 90vh;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), 
+	url("assets/background.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	color: white;
+}
+
+.section-main h1{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-size: 31px;
+	margin-top: 90px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.section-main h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+#buttonMain{
+	height: 80px;
+	width: 260px;
+	border: none;
+	border-radius: 80px;
+	background-color: #B11919;
+	font-family: 'Secular One', sans-serif;
+	font-size: 24px;
+	color: white;
+	margin-top: 40px;
+}
+.section{
+	display: flex;
+	padding-left: 60px;
+	padding-right: 60px;
+	flex-direction: column;
+	justify-content: start;
+	height: 100vh;
+}
+h1{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-size: 51px;
+	margin-top: 90px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	letter-spacing: 1.3px;
+}
+#section-contact a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+ul{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+li{
+	padding: 2px;
+}
+footer
+{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 85px;
+	background-color: black;
+	color: white;
+	bottom: 0;
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+}
+#made-by{
+	margin: 0;
+	color: white;
+	font-size: 10px;
+}
+
+@media (min-width: 900px) {
+	header{
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+
+	main{
+		padding-left: 120px;
+	}
+	.section{
+		padding-left: 120px;
+		padding-rigth: 120px;
+	}
+	.section-main h1{
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 2px;
+		font-size: 51px;
+		margin-top: 95px;
+		margin-bottom: 15px;
+		margin-right: 20px;
+	}
+	.section-main h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
+		margin-right: 20px;
+	}
+	#button{
+		display: none;
+	}
+
+	.logo {
+		max-height: 36px;
+		width: auto;
+	}
+
+	nav{
+		display: flex;
+	}
+
+	#buttonMain{
+		height: 100px;
+		width: 333px;
+		font-size: 32px;
+		margin-top: 80px;
+	}
+	h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 21px;
+		letter-spacing: 1.3px;
+	}
+	ul{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 21px;
+	}
+	li{
+		padding: 4px;
+	}
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+		font-family: 'Montserrat', sans-serif;
+		height: 125px;
+		background-color: black;
+		color: white;
+		bottom: 0;
+		font-size: 28px;
+		width: 100%;
+		text-align: center;
+	}
+	#made-by{
+		margin: 0;
+		color: white;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+	.section-main h1{
+		font-size: 21px;
+		margin-top: 25px;
+		margin-bottom: 5px;
+	}
+	.section-main h2{
+		font-size: 14px;
+	}
+	.logo {
+		max-height: 25px;
+		width: auto;
+	}
+	#buttonMain{
+		height: 50px;
+		width: 166px;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	h1{
+		font-size: 30px;
+		margin-top: 50px;
+	}
+	h2{
+		font-size: 12px;
+	}
+	footer
+	{
+		height: 55px;
+	}
+}
+
+@media (max-width: 750px){
+	header{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	main{
+		padding-left: 30px;
+	}
+	.section{
+		padding-left: 30px;
+		padding-rigth: 30px;
+	}
+	.section-main h1{
+		font-family: 'Montserrat', sans-serif;
+		letter-spacing: 2px;
+		font-size: 21px;
+		margin-top: 55px;
+		margin-bottom: 10px;
+		margin-right: 20px;
+	}
+	.section-main h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 16px;
+		margin-right: 20px;
+	}
+	.logo {
+		max-height: 20px;
+		width: auto;
+	}
+
+	#buttonMain{
+		height: 50px;
+		width: 166px;
+		font-size: 20px;
+		margin-top: 60px;
+	}
+	footer
+	{
+		height: 75px;
+		background-color: black;
+		color: white;
+		bottom: 0;
+		font-size: 12px;
+		width: 100%;
+		text-align: center;
+	}
+	#made-by{
+		margin: 0;
+		color: white;
+		font-size: 8px;
+	}
+}
