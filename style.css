@@ -99,6 +99,14 @@ nav{
 @media screen and (orientation:landscape) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+	h1{
+		color: red;
+		font-size: 20px;
+		margin-top: 50px;
+	}
+	h2{
+		font-size: 12px;
+	}
 	.section-main h1{
 		font-size: 21px;
 		margin-top: 25px;
@@ -116,14 +124,6 @@ nav{
 		width: 166px;
 		font-size: 20px;
 		margin-top: 20px;
-	}
-	h1{
-		color: red;
-		font-size: 20px;
-		margin-top: 50px;
-	}
-	h2{
-		font-size: 12px;
 	}
 	footer
 	{
