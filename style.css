@@ -157,6 +157,12 @@ h2{
 	font-size: 14px;
 	letter-spacing: 1.3px;
 }
+#space-above{
+	margin-top: 40px;
+}
+#space-above2{
+	margin-top: 30px;
+}
 #section-contact a{
 	text-decoration: none;
 	color: black;
@@ -214,6 +220,12 @@ footer
 		width: 166px;
 		font-size: 20px;
 		margin-top: 20px;
+	}
+	#space-above{
+		margin-top: 15px;
+	}
+	#space-above2{
+		margin-top: 5px;
 	}
 	ul{
 		font-family: 'Montserrat', sans-serif;
