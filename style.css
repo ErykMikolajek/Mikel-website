@@ -191,7 +191,7 @@ footer
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 	h1{
-		font-size: 21px;
+		font-size: 25px;
 		margin-top: 50px;
 	}
 	h2{
@@ -214,6 +214,13 @@ footer
 		width: 166px;
 		font-size: 20px;
 		margin-top: 20px;
+	}
+	ul{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 11px;
+	}
+	li{
+		padding: 2px;
 	}
 	footer
 	{
