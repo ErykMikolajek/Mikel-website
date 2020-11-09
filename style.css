@@ -158,10 +158,10 @@ h2{
 	letter-spacing: 1.3px;
 }
 #space-above{
-	margin-top: 40px;
+	margin-top: 50px;
 }
 #space-above2{
-	margin-top: 30px;
+	margin-top: 40px;
 }
 #section-contact a{
 	text-decoration: none;
@@ -193,7 +193,7 @@ footer
 	color: white;
 	font-size: 10px;
 }
-@media screen and (orientation:landscape) {
+@media screen and (max-height: 550px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 	h1{
@@ -222,10 +222,10 @@ footer
 		margin-top: 20px;
 	}
 	#space-above{
-		margin-top: 15px;
+		margin-top: 20px;
 	}
 	#space-above2{
-		margin-top: 5px;
+		margin-top: 10px;
 	}
 	ul{
 		font-family: 'Montserrat', sans-serif;
