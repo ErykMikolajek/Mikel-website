@@ -160,33 +160,38 @@ h1{
 }
 h2{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	letter-spacing: 1.3px;
+}
+#section-contact a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
 }
 ul{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 }
 li{
-	padding: 4px;
+	padding: 2px;
 }
 footer
 {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Montserrat', sans-serif;
-	height: 125px;
+	height: 85px;
 	background-color: black;
 	color: white;
 	bottom: 0;
-	font-size: 28px;
+	font-size: 14px;
 	width: 100%;
 	text-align: center;
 }
 #made-by{
 	margin: 0;
 	color: white;
-	font-size: 14px;
+	font-size: 10px;
 }
 
 @media (min-width: 900px) {
@@ -233,5 +238,35 @@ footer
 		width: 333px;
 		font-size: 32px;
 		margin-top: 80px;
+	}
+	h2{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 21px;
+		letter-spacing: 1.3px;
+	}
+	ul{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 21px;
+	}
+	li{
+		padding: 4px;
+	}
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+		font-family: 'Montserrat', sans-serif;
+		height: 125px;
+		background-color: black;
+		color: white;
+		bottom: 0;
+		font-size: 28px;
+		width: 100%;
+		text-align: center;
+	}
+	#made-by{
+		margin: 0;
+		color: white;
+		font-size: 14px;
 	}
 }
